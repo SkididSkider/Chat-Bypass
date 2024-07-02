@@ -103,6 +103,10 @@ end)
 local NotifyModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/PeaPattern/notif-lib/main/main.lua"))()
 
 NotifyModule:Notify("Harkins Chat Bypasser", 8)
+wait(1)
+NotifyModule:Notify("IF You Found A Bug Or A Problem Please Send Me A DM Explaining The Bug (Harkin_1)", 8)
+wait(3)
+NotifyModule:Notify("Enjoy!", 8)
 
 local bypassEnabled = true
 
