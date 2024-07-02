@@ -121,7 +121,7 @@ end)
 Connection.OnInvoke = function(Message)
     if bypassEnabled then
         Message = Gen(Message)
-        Message = "(ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́) " .. Message
+        Message = "(ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́ﾒ́́́́́́́́́) " .. Message
     end
     Chat(Message)
 end
